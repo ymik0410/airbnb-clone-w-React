@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Hello from './components/hello';
+
+// const root = <div>
+//   <Hello name="Boris" lastName="Smith" />
+//   <Hello name="Sasha" lastName="Smooth" />
+// </div>;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 
